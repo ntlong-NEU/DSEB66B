@@ -10,13 +10,13 @@ Reference: Course Syllabus
 
 By the end of this course, students will be able to:
 
-Understand Python syntax, variables, and basic data types
+- Understand Python syntax, variables, and basic data types
 
-Use Jupyter Notebook for developing and organizing code
+- Use Jupyter Notebook for developing and organizing code
 
-Apply NumPy for numerical data processing and computation
+- Apply NumPy for numerical data processing and computation
 
-3. Weekly Topics (Syllabus Outline)
+## 3. **Weekly Topics (Syllabus Outline)**
 Week	Topic
 
 - week 1. 	Course Introduction, Jupyter Notebook Basics
