@@ -1,8 +1,5 @@
-a= 1
-while a<=5:
-    a += 1
-    if a==3:
-        continue
-    print(a)
-    
-
+from functools import reduce
+# Sum of all numbers in a list
+numbers = [1, 2, 3, 4]
+total = reduce(lambda x, y: x + y, numbers)
+print(total) # Output: 10
