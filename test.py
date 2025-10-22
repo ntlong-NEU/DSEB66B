@@ -1,5 +1,16 @@
-from functools import reduce
-# Sum of all numbers in a list
-numbers = [1, 2, 3, 4]
-total = reduce(lambda x, y: x + y, numbers)
-print(total) # Output: 10
+class A:
+    def __init__(self):
+        print("A")
+class B(A):
+    def __init__(self):
+        super().__init__()
+        print("B")
+class C(A):
+    def __init__(self):
+        super().__init__()
+        print("C")
+class D(B,C):
+    def __init__(self):
+        super().__init__()
+        print("D")
+obj1 = D()
